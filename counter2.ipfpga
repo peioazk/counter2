@@ -1,0 +1,44 @@
+# -------------------------------------------------------------------------------------------------------------------
+# File : counter2.ipfpga
+# Project : counter2
+# Description : IPCPL Compilation resource datafile.
+# -------------------------------------------------------------------------------------------------------------------
+[PROJECT]
+counter2
+[END]
+ 
+[IP_LIST]
+#paulib      v0.1       .rev    vmap
+#paulib      NOVER      NODIR
+paulib  NOVER   NODIR   vmap
+[END]
+
+[IP_SIM_LIST]
+[END]
+
+[PROJECT_LIBRARY]
+[END]
+
+[PROJECT_SOURCES]
+rtl/counter2.vhd
+[END]
+
+[TB_SOURCES]
+tb/tb_counter2.vhd
+[END]
+
+[ALTERA]
+[10cl006ye144c8g]
+#quartusii_dir /opt/altera/19.1/quartus/bin
+altera_script_name ../altera_counter2.tcl
+[ENDSUB]
+[END]
+
+[MODELSIM]
+vhdl_options -2008 -explicit
+[END]
+
+[DIR_STRUCT]
+# set directories relative to project directory
+sim_dir sim/
+[END]

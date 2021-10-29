@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/peio/fpgawork/cores/counter2/sim
+Ecnt
+Z1 w1633529579
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8/home/peio/fpgawork/cores/paulib/rtl/paulib.vhd
+Z7 F/home/peio/fpgawork/cores/paulib/rtl/paulib.vhd
+l0
+L122
+VFPV[lbzZCPhV;j;9_Goj]2
+!s100 o5Q[deBZBmZ;PIMBUe_Be0
+Z8 OV;C;10.5b;63
+33
+Z9 !s110 1634902352
+!i10b 1
+Z10 !s108 1634902352.000000
+Z11 !s90 -2008|-explicit|-work|/home/peio/fpgawork/cores/counter2/sim/paulib|/home/peio/fpgawork/cores/paulib/rtl/paulib.vhd|
+Z12 !s107 /home/peio/fpgawork/cores/paulib/rtl/paulib.vhd|
+!i113 1
+Z13 o-2008 -explicit -work /home/peio/fpgawork/cores/counter2/sim/paulib
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 3 cnt 0 22 FPV[lbzZCPhV;j;9_Goj]2
+l133
+L132
+VO@H_i[g2Y<SmM@:d1?L9Y1
+!s100 ?hIoaA`DlcCh]M[Q<6`o[1
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ppaulib_pkg
+R4
+R5
+R1
+R0
+R6
+R7
+l0
+L14
+VX[6aJUh34X^nCoOci][We2
+!s100 T_@RNIz571aOa83ISEP5g3
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Erep
+R1
+R4
+R5
+R0
+R6
+R7
+l0
+L86
+VoHN<[VYHAAee8izOd5Lz=0
+!s100 HQb@Gj^gdgjH8nFWMLc?U3
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Artl
+R4
+R5
+DEx4 work 3 rep 0 22 oHN<[VYHAAee8izOd5Lz=0
+l98
+L95
+V1<o2bXNK:a?ZC<lnaThLS1
+!s100 nTU=<QNLQSBj:R]e;nm6l2
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Erep0
+R1
+R4
+R5
+R0
+R6
+R7
+l0
+L55
+VU5?OczU;1AJ2KIO2L:2:O3
+!s100 Fk94@T?JmKXUhf7]_h9ol1
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Artl
+R4
+R5
+DEx4 work 4 rep0 0 22 U5?OczU;1AJ2KIO2L:2:O3
+l66
+L64
+VfBfmGdD3[EfLAAfgl@hB_2
+!s100 YU]_n7]G5QBSbDAoU8:=o0
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14

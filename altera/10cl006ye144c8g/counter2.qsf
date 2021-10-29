@@ -1,0 +1,70 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 15:19:13  October 28, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		counter2_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone 10 LP"
+set_global_assignment -name DEVICE 10cl006ye144c8g
+set_global_assignment -name TOP_LEVEL_ENTITY counter2
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:19:13  OCTOBER 28, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name VHDL_FILE /home/peio/fpgawork/cores/counter2/rtl/counter2.vhd
+set_global_assignment -name VHDL_FILE /home/peio/fpgawork/cores/paulib/rtl/paulib.vhd
+set_global_assignment -name SDC_FILE ../counter2.sdc
+set_instance_assignment -name CLOCK_SETTINGS clk_i -to clk_i
+set_instance_assignment -name GLOBAL_SIGNAL ON -to clk_i
+set_instance_assignment -name GLOBAL_SIGNAL ON -to arst_i
+set_location_assignment PIN_88 -to clk_i
+set_location_assignment PIN_90 -to arst_i
+set_location_assignment PIN_115 -to en_i
+set_location_assignment PIN_68 -to q_o[0]
+set_location_assignment PIN_67 -to q_o[1]
+set_location_assignment PIN_66 -to q_o[2]
+set_location_assignment PIN_65 -to q_o[3]
+set_location_assignment PIN_60 -to q_o[4]
+set_location_assignment PIN_59 -to q_o[5]
+set_location_assignment PIN_58 -to q_o[6]
+set_location_assignment PIN_55 -to q_o[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to arst_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to en_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q_o*
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to clk_i
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to arst_i
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to en_i
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to q_o*
